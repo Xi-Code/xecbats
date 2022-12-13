@@ -1,0 +1,164 @@
+
+.content1{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: #fff;
+    position: relative;
+}
+
+.content1 .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content1 h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+}
+
+.content1 .cn{
+    width: 160px;
+    height: 40px;
+    background: #0042FF;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+    
+}
+
+.content1 .cn a{
+    text-decoration: none;
+    color: #000;
+    transition: .3s ease;
+}
+
+.cn:hover{
+    background-color: #fff;
+}
+
+.content1 span{
+    color: #ff0000;
+    font-size: 65px
+}
+
+.form1{
+    width: 300px;
+    height: 400px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -90px;
+    left: 550px;
+    transform: translate(-40%,20%);
+    border-radius: 10px;
+    padding: 100px;
+}
+
+.form1 h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #0042FF;
+    font-size: 22px;
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form1 input{
+    width: 300px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid #0042FF;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: #fff;
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+.form1 input:focus{
+    outline: none;
+}
+
+::placeholder{
+    color: #fff;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #0042FF;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s ease;
+}
+.btnn:hover{
+    background: #fff;
+    color: #0042FF;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+.form1 .link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+.form1 .link a{
+    text-decoration: none;
+    color: #0042FF;
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.btn1{
+    width: 80px;
+    height: 20px;
+    background: #0042FF;
+    border: 2px solid #ffffff;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: sans-serif;
+    border-bottom-right-radius: 5px;
+    border-top-left-radius: 5px;
+    transition: 0.2s ease;
+    cursor: pointer;
+}
+.btn1:hover{
+    color: #ff0000;
+    font-weight: bold;
+    background: #fff;
+    border: 2px solid #0042FF;
+    font-family: sans-serif;
+}
+
+.btn1:focus{
+    outline: none;
+}

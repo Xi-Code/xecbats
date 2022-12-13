@@ -1,0 +1,58 @@
+.main_about{
+    width: 100%;
+    background: linear-gradient(to top, rgba(0,0,0,0.5)90%,rgba(0,0,0,0.5)90%), url(1.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+.about1{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 150px;
+    transform: translate(-10%,50%);
+    border-radius: 10px;
+    padding: 25px;
+}
+.about2{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 525px;
+    transform: translate(-10%,50%);
+    border-radius: 10px;
+    padding: 25px;
+}
+.about3{
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%,rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 900px;
+    transform: translate(-10%,50%);
+    border-radius: 10px;
+    padding: 25px;
+}
+.box h2{
+    font-family: 'Times New Roman';
+    color: rgb(255, 0, 0);
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    text-align: center;
+}
+.box p{
+    color: rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+h3{
+    color: rgb(5, 1, 255);
+    font-family: sans-serif;
+    background:  #fff;
+    text-align: center;
+    border-radius: 10px;
+}
